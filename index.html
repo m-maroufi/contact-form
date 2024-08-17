@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png" />
+		<link rel="stylesheet" href="./assets/boxicons/css/boxicons.min.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<title>Contact form</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="form-container">
+				<div class="form-wrapper">
+					<h2 class="form-title">Contact Us</h2>
+					<form id="contact-form">
+						<div class="form-group">
+							<label for="firstName">First Name <sup>*</sup></label>
+							<input type="text" id="firstName" name="firstName" required />
+							<span class="error">This field is required</span>
+						</div>
+						<div class="form-group">
+							<label for="lastName">Last Name <sup>*</sup></label>
+							<input type="text" id="lastName" name="lastName" required />
+							<span class="error"></span>
+						</div>
+						<div class="form-group col-2">
+							<label for="email">E-mail Address <sup>*</sup></label>
+							<input type="email" id="email" name="email" required />
+							<span class="error"></span>
+						</div>
+						<div class="form-group col-2">
+							<label for="">Query Type <sup>*</sup></label>
+							<div class="form-group-radio">
+								<label for="query-type-1" class="radio-field">
+									<input
+										type="radio"
+										id="query-type-1"
+										name="query-type"
+										value=""
+										checked />
+									<span for="query-type-1">General Enquiry</span>
+								</label>
+								<label for="query-type-2" class="radio-field selected">
+									<input
+										type="radio"
+										id="query-type-2"
+										name="query-type"
+										value=""
+										checked />
+									<label for="query-type-2">Support Request</label>
+								</label>
+							</div>
+							<span class="error"> </span>
+						</div>
+						<div class="form-group col-2">
+							<label for=""> Message <sup>*</sup></label>
+							<textarea name="message" id="message"></textarea>
+							<span class="error"> </span>
+						</div>
+						<div class="form-group col-2">
+							<div class="checkbox-field">
+								<input type="checkbox" name="remmberme" id="remmberme" />
+								<label for="remmberme"
+									>I consent to being contacted by the team <sup>*</sup></label
+								>
+							</div>
+							<span class="error">
+								To submit this form, please consent to being contacted
+							</span>
+						</div>
+						<div class="form-group col-2">
+							<button class="btn">Submit</button>
+						</div>
+					</form>
+				</div>
+				<div class="image-wrapper">
+					<div class="text-content">
+						<h2>Get in touch with us</h2>
+					</div>
+					<img src="./assets/images/Contact us-bro.png" alt="" />
+					<div class="icons">
+						<a href="#"> <i class="bx bxl-telegram"></i> </a>
+						<a href="#"> <i class="bx bxl-instagram-alt"></i> </a>
+						<a href="#"> <i class="bx bxs-phone-call"></i> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./assets/js/app.js"></script>
+	</body>
+</html>
