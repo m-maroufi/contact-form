@@ -8,7 +8,7 @@ html css js is developed and field validation is done with vanilla js
 ## Demo
 Click on the link below to view the demo
 
-https://github.com/m-maroufi/contact-form
+[Demo](https://m-maroufi.github.io/contact-form/)
 
 
 ## Features
